@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>Doug's fancy shmancy .docx search/replace webapp</h1>
+<h1>Webapp to replace text inside a .docx</h1>
 
 <h2>Now enter the search/replace terms</h2>
 <p>Note that the order matters here -- the terms will be applied in the in the order that you provide them (so enter "Doug Klein" -> "OGC" before "Doug" -> "OGC").</p>
@@ -17,7 +17,7 @@
 <tr><td><input type="text" name="from5"/></td><td><input type="text" name="to5"/></td></tr>
 </table>
 
-<h2>And pick what files within the archive that the search/replace should be performed in</h2>
+<h2>And pick what files within the archive that the search/replace should be performed in. Typically, you should select document, footnotes, and comments.</h2>
 <table>
 <tr><td><b>Filename</b></td><td><b>Search/Replace In It?</b></td></tr>
 {% for fname in filenames %}
